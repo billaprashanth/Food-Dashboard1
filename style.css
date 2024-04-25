@@ -233,7 +233,6 @@ a {
 }
 
 .container .main .header .items .filter{
-    /* position: relative; */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -831,5 +830,30 @@ a {
     .container .right-container .dinner .meals {
         gap: 10px;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container .main-header .selectors .items a {
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .container .main-header .food-items .item .food-names h6 {
+        font-size: 13px;
+    }
+    .container .main-header .food-items .item .food-names p {
+        font-size: 10px;
+    }
+    .container .right-container .dinner .item .main {
+        width: 70%;
+    }
+    .container .right-container .dinner .meals {
+        font-size: 10px;
+    }
+    .container .main .header .main__header h2 {
+        font-size: 18px;
+    }
+    .container .main .header .main__header h6 {
+        font-size: 11px;
     }
 }
